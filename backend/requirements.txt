@@ -1,0 +1,40 @@
+# ================================================================
+#   SYNAPSE-AI — Python Dependencies
+#   Install with: pip install -r requirements.txt
+#   Note: Use --only-binary=:all: flag if numpy build errors occur
+# ================================================================
+
+# ── Web Framework ───────────────────────────────────────────────
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# ── Environment Variables ────────────────────────────────────────
+python-dotenv==1.0.1
+
+# ── Data Validation ─────────────────────────────────────────────
+pydantic==2.13.4
+pydantic-settings==2.5.2
+
+# ── AI / LLM Core ───────────────────────────────────────────────
+langchain==0.3.30
+langchain-core==0.3.86
+langchain-openai==0.2.1
+langgraph==0.2.28
+
+
+# ── Groq SDK (FREE & FAST AI) ───────────────────────────────────
+groq==0.15.0
+
+# ── Tokenizer (required by langchain-openai) ────────────────────
+tiktoken==0.12.0
+
+# ── HTTP Clients ────────────────────────────────────────────────
+httpx==0.28.1
+requests==2.32.3
+
+# ── Utilities ───────────────────────────────────────────────────
+python-multipart==0.0.12
+
+# ── NumPy (Windows pre-built binary — no compiler needed) ───────
+# Install with: pip install numpy --only-binary=:all:
+numpy==2.4.4

@@ -1,0 +1,26 @@
+# ── CRITICAL — Never commit these to GitHub ──────────────────────
+.env
+*.env
+
+# ── Python Virtual Environment ───────────────────────────────────
+venv/
+env/
+.venv/
+
+# ── Python Cache Files ───────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# ── VS Code Settings ─────────────────────────────────────────────
+.vscode/
+
+# ── OS Generated Files ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Logs ─────────────────────────────────────────────────────────
+*.log
+logs/
