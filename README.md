@@ -441,12 +441,18 @@ MIT License — Free to use, modify, and distribute.
 ║                                                               ║
 ║   👩‍💻  MANSI SONANI                                            ║
 ║                                                               ║
-║   AI Automation Developer | BCA Fresher 2025                  ║
+║   AI Automation Developer | Prompt Engineer                   ║
+║   n8n · LangGraph · Groq AI · Python · FastAPI                ║
 ║                                                               ║
-║   I specialize in using modern AI tools and automation        ║
-║   to build complete software solutions rapidly. From          ║
-║   LangGraph multi-agent swarms to React frontends,            ║
-║   I orchestrate AI to solve real business problems.           ║
+║   I build real AI-powered automation systems that             ║
+║   eliminate manual work for businesses. From                  ║
+║   LangGraph multi-agent swarms to n8n workflow                ║
+║   automation, I ship production systems fast.                 |
+║                                                               ║
+║                                                               ║
+║                                                               ║
+║                                                               ║
+║                                                               ║
 ║                                                               ║
 ║   🌐 Live Demo : synapse-ai-one-gamma.vercel.app             ║
 ║   💻 GitHub    : github.com/mansisonani07                     ║
@@ -496,5 +502,5 @@ If Synapse-AI inspired you, please consider:
 *© 2026 Mansi Sonani — Made with ❤️ in India*
 
 </div>
-```
+
 
