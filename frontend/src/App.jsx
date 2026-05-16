@@ -14,7 +14,7 @@ function App() {
   const [progressStep, setProgressStep] = useState(0)
   const [errorMessage, setErrorMessage] = useState(null)
 
-  const API_URL = 'http://localhost:8000/api/v1'
+  const API_URL = import.meta.env.VITE_API_URL || 'https://synapse-ai-backend-d1zi.onrender.com/api/v1'
   const formRef = useRef(null)
 
   useEffect(() => { const t = setInterval(() => setActiveAgent(p => (p + 1) % 5), 2000); return () => clearInterval(t) }, [])
